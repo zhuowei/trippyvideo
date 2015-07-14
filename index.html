@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background: black;
+        color:#CCCCCC; 
+      }
+      div {
+        border :1px solid #444444;
+        padding:10px;
+        margin: 10px;
+        background:#3B3B3B;
+      }
+    </style>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+
+  <body onload="processor.doLoad()">
+    <p><a href="index_splatfest.html">Switch to Splatfest video</a></p>
+    <div>
+      <canvas id="c1" style="display: none"></canvas>
+      <canvas id="c2"></canvas>
+    </div>
+    <div>
+      <video id="video" src="splat.mp4" controls="true"/>
+    </div>
+  </body>
+</html>
